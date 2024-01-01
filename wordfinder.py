@@ -14,8 +14,3 @@ class WordFinder:
 
     def random(self):
         return choice(self.words)
-
-
-
-
-
