@@ -10,7 +10,7 @@ class WordFinder:
         print (f"{len(self.words)} words read")
 
     def __repr__(self):
-        return f"<WordFinder path={self.path} words={self.words}>"
+        return f"<{self.__class__.__name__} path={self.path} words={self.words} >"
 
     def random(self):
         return choice(self.words)
